@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2877A7A92704ACD90099E892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877A7A82704ACD90099E892 /* AppDelegate.swift */; };
 		2877A7AB2704ACD90099E892 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877A7AA2704ACD90099E892 /* SceneDelegate.swift */; };
-		2877A7AD2704ACD90099E892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877A7AC2704ACD90099E892 /* ViewController.swift */; };
+		2877A7AD2704ACD90099E892 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877A7AC2704ACD90099E892 /* MainViewController.swift */; };
 		2877A7B02704ACD90099E892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2877A7AE2704ACD90099E892 /* Main.storyboard */; };
 		2877A7B22704ACDB0099E892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2877A7B12704ACDB0099E892 /* Assets.xcassets */; };
 		2877A7B52704ACDB0099E892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2877A7B32704ACDB0099E892 /* LaunchScreen.storyboard */; };
+		28E8A00A27052178000FA69F /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E8A00927052178000FA69F /* PlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2877A7A52704ACD90099E892 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2877A7A82704ACD90099E892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2877A7AA2704ACD90099E892 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2877A7AC2704ACD90099E892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2877A7AC2704ACD90099E892 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2877A7AF2704ACD90099E892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2877A7B12704ACDB0099E892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2877A7B42704ACDB0099E892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2877A7B62704ACDB0099E892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E8A00927052178000FA69F /* PlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		2877A7A72704ACD90099E892 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				28E8A00B27052181000FA69F /* view controllers */,
 				2877A7A82704ACD90099E892 /* AppDelegate.swift */,
 				2877A7AA2704ACD90099E892 /* SceneDelegate.swift */,
-				2877A7AC2704ACD90099E892 /* ViewController.swift */,
 				2877A7AE2704ACD90099E892 /* Main.storyboard */,
 				2877A7B12704ACDB0099E892 /* Assets.xcassets */,
 				2877A7B32704ACDB0099E892 /* LaunchScreen.storyboard */,
 				2877A7B62704ACDB0099E892 /* Info.plist */,
 			);
 			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		28E8A00B27052181000FA69F /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2877A7AC2704ACD90099E892 /* MainViewController.swift */,
+				28E8A00927052178000FA69F /* PlayingViewController.swift */,
+			);
+			path = "view controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2877A7AD2704ACD90099E892 /* ViewController.swift in Sources */,
+				2877A7AD2704ACD90099E892 /* MainViewController.swift in Sources */,
+				28E8A00A27052178000FA69F /* PlayingViewController.swift in Sources */,
 				2877A7A92704ACD90099E892 /* AppDelegate.swift in Sources */,
 				2877A7AB2704ACD90099E892 /* SceneDelegate.swift in Sources */,
 			);
