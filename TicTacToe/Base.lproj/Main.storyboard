@@ -95,18 +95,27 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                <connections>
+                                                    <action selector="topLeftPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="ECv-IR-wIa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75S-Ym-JX9">
                                                 <rect key="frame" x="134.5" y="0.0" width="125" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                <buttonConfiguration key="configuration" style="plain" title="top mid"/>
+                                                <connections>
+                                                    <action selector="topMidPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="bcq-rV-912"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6d-ad-Mi9">
                                                 <rect key="frame" x="269.5" y="0.0" width="124.5" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
+                                                <connections>
+                                                    <action selector="topRightPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="G9K-90-u2k"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -122,18 +131,27 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="empty"/>
+                                                <connections>
+                                                    <action selector="midLeftPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="UJ7-Od-o2K"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTC-Dg-RRy">
                                                 <rect key="frame" x="134.5" y="0.0" width="125" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="empty"/>
+                                                <connections>
+                                                    <action selector="midMidPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="R93-de-V8p"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zb5-Na-SVq">
                                                 <rect key="frame" x="269.5" y="0.0" width="124.5" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="empty"/>
+                                                <connections>
+                                                    <action selector="midRightPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="h0j-Ps-TBi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -145,18 +163,27 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="free"/>
+                                                <connections>
+                                                    <action selector="bottomLeftPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="flb-pw-6xG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVE-6N-ZCf">
                                                 <rect key="frame" x="134.5" y="0.0" width="125" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="choose me"/>
+                                                <connections>
+                                                    <action selector="bottomMidPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="0cH-F6-MuC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVm-Xb-Chs">
                                                 <rect key="frame" x="269.5" y="0.0" width="124.5" height="100"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="no me im free"/>
+                                                <connections>
+                                                    <action selector="bottomRightPressed:" destination="iQU-BE-SMD" eventType="touchUpInside" id="DGT-Sf-PYB"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -179,6 +206,12 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Home"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEo-hT-HgO">
+                                <rect key="frame" x="10" y="509.5" width="394" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rTx-QQ-7Fr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -188,13 +221,16 @@
                             <constraint firstAttribute="trailing" secondItem="q8s-68-9k4" secondAttribute="trailing" id="7lG-Ho-VQy"/>
                             <constraint firstItem="rTx-QQ-7Fr" firstAttribute="trailing" secondItem="E1J-Jd-GgU" secondAttribute="trailing" constant="10" id="8VL-4g-p03"/>
                             <constraint firstAttribute="bottom" secondItem="q8s-68-9k4" secondAttribute="bottom" id="Fw0-bB-Ffl"/>
+                            <constraint firstItem="wEo-hT-HgO" firstAttribute="leading" secondItem="rTx-QQ-7Fr" secondAttribute="leading" constant="10" id="HPh-AB-qtW"/>
                             <constraint firstItem="q8s-68-9k4" firstAttribute="top" secondItem="PaV-W2-3An" secondAttribute="top" id="HwU-a8-DY7"/>
                             <constraint firstItem="fOH-9V-o7V" firstAttribute="leading" secondItem="rTx-QQ-7Fr" secondAttribute="leading" constant="20" id="Ihe-Tu-gmJ"/>
                             <constraint firstItem="E1J-Jd-GgU" firstAttribute="centerX" secondItem="PaV-W2-3An" secondAttribute="centerX" id="J6B-Ew-z1I"/>
+                            <constraint firstItem="rTx-QQ-7Fr" firstAttribute="trailing" secondItem="wEo-hT-HgO" secondAttribute="trailing" constant="10" id="KcE-82-9wn"/>
                             <constraint firstItem="q8s-68-9k4" firstAttribute="leading" secondItem="PaV-W2-3An" secondAttribute="leading" id="Kim-eT-i5H"/>
                             <constraint firstItem="xk5-yK-QDo" firstAttribute="leading" secondItem="rTx-QQ-7Fr" secondAttribute="leading" constant="30" id="Prg-nB-q09"/>
                             <constraint firstItem="MNC-et-lV1" firstAttribute="top" secondItem="rTx-QQ-7Fr" secondAttribute="top" constant="10" id="S2e-lL-PyV"/>
                             <constraint firstItem="xk5-yK-QDo" firstAttribute="top" secondItem="E1J-Jd-GgU" secondAttribute="bottom" constant="30" id="TXA-fM-lp3"/>
+                            <constraint firstItem="wEo-hT-HgO" firstAttribute="top" secondItem="E1J-Jd-GgU" secondAttribute="bottom" constant="70" id="V9d-eH-rE9"/>
                             <constraint firstItem="rTx-QQ-7Fr" firstAttribute="bottom" secondItem="fOH-9V-o7V" secondAttribute="bottom" constant="20" id="W6T-ys-3sE"/>
                             <constraint firstItem="E1J-Jd-GgU" firstAttribute="leading" secondItem="rTx-QQ-7Fr" secondAttribute="leading" constant="10" id="Yve-5H-olk"/>
                             <constraint firstItem="rTx-QQ-7Fr" firstAttribute="trailing" secondItem="fOH-9V-o7V" secondAttribute="trailing" constant="20" id="ej6-2u-JwV"/>
@@ -203,7 +239,20 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomLeftButton" destination="CcZ-AS-OML" id="qam-ha-aGx"/>
+                        <outlet property="bottomMidButton" destination="oVE-6N-ZCf" id="MIP-KL-UZJ"/>
+                        <outlet property="bottomRightButton" destination="aVm-Xb-Chs" id="3MH-eB-UlL"/>
+                        <outlet property="homeButton" destination="fOH-9V-o7V" id="fcM-4P-Xhb"/>
+                        <outlet property="messageLabel" destination="wEo-hT-HgO" id="krl-Ge-P0P"/>
+                        <outlet property="midLeftButton" destination="3eN-HC-xNy" id="3eb-XD-rwM"/>
+                        <outlet property="midMidButton" destination="fTC-Dg-RRy" id="dVk-IW-HNu"/>
+                        <outlet property="midRightButton" destination="zb5-Na-SVq" id="mNX-1N-Yam"/>
+                        <outlet property="player1ScoreLabel" destination="MNC-et-lV1" id="IXc-rT-QI7"/>
+                        <outlet property="player2ScoreLabel" destination="sTq-4Y-i9v" id="3uD-Ck-e1V"/>
                         <outlet property="topLeftButton" destination="7cd-JS-kBe" id="EcX-cD-MfW"/>
+                        <outlet property="topMidButton" destination="75S-Ym-JX9" id="ZOe-bm-yTh"/>
+                        <outlet property="topRightButton" destination="b6d-ad-Mi9" id="WuV-Aa-cbl"/>
+                        <outlet property="turnLabel" destination="xk5-yK-QDo" id="3Sm-rN-jZj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nkq-3E-INu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
